@@ -16,14 +16,14 @@
   
   nav {
     background: var(--secondary);
-    padding: 1rem;
+    padding: 2rem;
   }
   
   nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
   }
   
   nav a {
@@ -39,7 +39,7 @@
   
   .hero {
     text-align: center;
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
     background: var(--primary);
     color: var(--white);
   }
@@ -48,7 +48,7 @@
     display: inline-block;
     background: var(--accent);
     color: #000;
-    padding: 0.75rem 1.25rem;
+    padding: 0.25rem 1.25rem;
     margin-top: 1rem;
     border-radius: 5px;
     text-decoration: none;
@@ -93,14 +93,6 @@
   .profile-pic {
     width: 100%;
     height: auto;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-  }
-
-  .banner-img {
-    width: 100%;
     max-height: 300px;
     object-fit: cover;
     border-radius: 10px;
