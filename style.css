@@ -1,0 +1,194 @@
+:root {
+    --primary: #2a9d8f;
+    --secondary: #264653;
+    --bg: #f4f4f4;
+    --text: #333;
+    --accent: #e9c46a;
+    --white: #fff;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  
+  nav {
+    background: var(--secondary);
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    color: var(--accent);
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: var(--primary);
+    color: var(--white);
+  }
+  
+  .btn-main {
+    display: inline-block;
+    background: var(--accent);
+    color: #000;
+    padding: 0.75rem 1.25rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .project {
+    background: var(--white);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ddd;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+
+  .profile-pic {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+    
+  .team-section {
+    background-color: #f9f0eb;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all content inside vertically */
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 2rem;
+    color: #0c3c34;
+    margin-bottom: 2rem;
+    max-width: 800px;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    justify-items: center; /* Ensures cards are centered in each grid cell */
+  }
+  
+  
+  .card {
+    background-color: white;
+    border: 2px solid #f4b183;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card-title {
+    color: #e69a00;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title span {
+    font-weight: bold;
+  }
+  
+  .card p {
+    color: #0c3c34;
+    line-height: 1.6;
+  }
+  
+  .team-section {
+    background-color: #f9f0eb;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all content inside vertically */
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 2rem;
+    color: #0c3c34;
+    margin-bottom: 2rem;
+    max-width: 800px;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    justify-items: center; /* Ensures cards are centered in each grid cell */
+  }
+
+  .banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  
